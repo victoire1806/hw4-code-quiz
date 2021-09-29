@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz</title>
+
+    <link rel="shortcut icon" href="../image/quiz.jpeg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/qa.css">
+</head>
+
+<body>
+    <header class="navbar d-flex justify-content-center">
+        <p class="navbar-text mr-5">question &nbsp; <span id="question-num">#</span>/<span id="num-questions">#</span>
+        </p>
+        <p id="quiz-time" class="navbar-text ml-5">time remaining &nbsp; <span id="quiz-timer">#:##</span></p>
+    </header>
+
+    <main class="container contain-max">
+        <section id="question-card" class="card">
+            <div class="card-header question">
+                <h4 id="question-text">Question text</h4>
+            </div>
+            <div class="card-body">
+                <ul id="choices-list" class="list-group">
+                    <li class="list-group-item list-group-item-action choice" data-text="">choice 1</li>
+                    <li class="list-group-item list-group-item-action choice" data-text="">choice 2</li>
+                    <li class="list-group-item list-group-item-action choice" data-text="">choice 3</li>
+                    <li class="list-group-item list-group-item-action choice" data-text="">choice 4</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="quiz-result" class="text-center" hidden>
+            <div class="my-4">
+                <h2 id="quiz-message"></h2>
+                <h4>Quiz score: <span id="quiz-score"></span></h4>
+            </div>
+
+            <form class="d-flex flex-column align-items-center my-2">
+                <div class="form-group">
+                    <label for="initials">Record your score</label>
+                    <input type="text" id="initials" class="form-control text-center" name="initials"
+                        placeholder="Enter your initials">
+                </div>
+                <button type="submit" id="btn-submit-score" class="btn btn-primary w-25">Submit Score</button>
+                <a href="../html/index.html" class="btn btn-outline-primary mt-3 w-25">Try Again</a>
+            </form>
+        </section>
+    </main>
+
+    <script src="../js/quiz.js"></script>
+    <script src="../js/qa.js"></script>
+</body>
+
+</html>

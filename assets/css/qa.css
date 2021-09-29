@@ -1,0 +1,12 @@
+header p {
+    color: var(--color-theme);
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  /* Question Card */
+  .list-group-item-action:hover {
+    background-color: var(--color-theme-fade);
+    cursor: pointer;
+  }
+  

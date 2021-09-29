@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --color-text-dark: #333;
+  --color-text-light: #666;
+  --color-theme: #f71eec;
+  --color-theme-fade: #df00fc5d;
+}
+
+/* Elements */
+body {
+  color: #f3f3f3;
+}
+
+/* Utility Classes */
+.contain-max {
+  max-width: 600px;
+}
+
+/* Buttons */
+.btn {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--color-theme);
+  border-color: var(--color-theme);
+  color: var(--color-text-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-theme-fade);
+  border-color: var(--color-theme-fade);
+  color: var(--color-text-dark);
+}
+
+.btn-outline-primary {
+  color: var(--color-theme);
+  border-color: var(--color-theme);
+}
+
+.btn-outline-primary:hover {
+  background-color: transparent;
+  border-color: var(--color-theme-fade);
+  color: var(--color-theme-fade);
+}

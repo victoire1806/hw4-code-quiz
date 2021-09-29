@@ -1,0 +1,17 @@
+.jumbotron h1 i {
+    color: var(--color-theme);
+  }
+  
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer a {
+    color: var(--color-theme);
+  }
+  
