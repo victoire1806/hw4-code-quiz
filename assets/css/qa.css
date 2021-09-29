@@ -4,7 +4,7 @@ header p {
     margin: 0;
   }
   
-  /* Question Card */
+ 
   .list-group-item-action:hover {
     background-color: var(--color-theme-fade);
     cursor: pointer;

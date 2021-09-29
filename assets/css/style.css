@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* Variables */
+
 :root {
   --color-text-dark: #333;
   --color-text-light: #666;
@@ -10,17 +10,17 @@
   --color-theme-fade: #df00fc5d;
 }
 
-/* Elements */
+
 body {
   color: #f3f3f3;
 }
 
-/* Utility Classes */
+
 .contain-max {
   max-width: 600px;
 }
 
-/* Buttons */
+
 .btn {
   font-weight: bold;
 }
