@@ -218,7 +218,7 @@ btnSubmitScore.addEventListener("click", (e) => {
   // Redirect to quiz scores page
   // location.replace("/html/highscores.html");
   location.replace(
-    "file:///Users/annejoseph/hw4-code-quiz/assets/html/highScore.html"
+    "https://victoire1806.github.io/assets/html/highScore.html"
   );
 });
 
